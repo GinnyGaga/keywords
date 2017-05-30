@@ -1,0 +1,19 @@
+pass 语句什么也不做。它用于那些语法上必须要有什么语句，但程序什么也不做的场合，例如:
+
+>>> while True:
+...     pass  # Busy-wait for keyboard interrupt (Ctrl+C)
+...
+
+
+这通常用于创建最小结构的类:
+
+>>> class MyEmptyClass:
+...     pass
+...
+
+
+另一方面，pass 可以在创建新代码时用来做函数或控制体的占位符。可以让你在更抽象的级别上思考。pass 可以默默的被忽视:
+
+>>> def initlog(*args):
+...     pass   # Remember to implement this!
+...

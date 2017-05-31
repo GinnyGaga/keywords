@@ -36,16 +36,16 @@ except-#http://www.tutorialspoint.com/python/python_exceptions.htm
 
 import-#from sys import argv
 print-#打印
-class-
+class-#用来描述具有相同的属性和方法的对象的集合。它定义了该集合中每个对象所共有的属性和方法。对象是类的实例。
 exec-#执行存储在字符串或文件中的python语句。
-in-我记得的用法：if A in B：
-raise-
-continue-
-finally-
-is-
-return-返回一个值
-def-定义函数
-for--for-loop(for循环)
-lambda-
-try-
+in-#Python 字典 in 操作符用于判断键是否存在于字典中，如果键在字典dict里返回true，否则返回false ;我记得的用法：if A in B：
+raise-#Python 使用 raise 语句抛出一个指定的异常.raise 唯一的一个参数指定了要被抛出的异常。它必须是一个异常的实例或者是异常的类（也就是 Exception 的子类）。如果你只想知道这是否抛出了一个异常，并不想去处理它，那么一个简单的 raise 语句就可以再次把它抛出。
+continue-#Python continue 语句跳出本次循环，而break跳出整个循环。continue 语句用来告诉Python跳过当前循环的剩余语句，然后继续进行下一轮循环;continue语句用在while和for循环中。
+finally-#不管是否出现异常，最后都会执行finally的语句块内容，用于清理工作所以，你可以在 finally 语句中关闭文件，这样就确保了文件能正常关闭
+is-#Python中的对象包含三要素：id、type、value。其中id用来唯一标识一个对象，type标识对象的类型，value是对象的值。is判断的是a对象是否就是b对象，是通过id来判断的。==判断的是a对象的值是否和b对象的值相等，是通过value来判断的
+return-#返回一个值.python 函数返回值 return，函数中一定要有return返回值才是完整的函数。如果你没有python 定义函数返回值，那么会得到一个结果是None对象，而None表示没有任何值。
+def-#定义函数
+for--for-#loop(for循环)
+lambda-#python 使用 lambda 表达式来创建匿名函数.lambda只是一个表达式，函数体比def简单很多;lambda的主体是一个表达式，而不是一个代码块。仅仅能在lambda表达式中封装有限的逻辑进去;lambda函数拥有自己的名字空间，且不能访问自有参数列表之外或全局名字空间里的参数;虽然lambda函数看起来只能写一行，却不等同于C或C++的内联函数，后者的目的是调用小函数时不占用栈内存从而增加运行效率
+try-#ython的try语句有两种风格----一：种是处理异常（try/except/else）二：种是无论是否发生异常都将执行最后的代码（try/finally）
 eval-#用来计算存储在字符串中的有效Python表达式
